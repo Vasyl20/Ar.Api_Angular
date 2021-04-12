@@ -4,7 +4,9 @@ using System.Text;
 
 namespace AR.DTO.Results
 {
-    class ResultDTO
+    public class ResultDTO
     {
+        public int Code { get; set; }
+        public string Message { get; set; }
     }
 }

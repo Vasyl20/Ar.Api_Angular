@@ -4,7 +4,8 @@ using System.Text;
 
 namespace AR.DTO.Results
 {
-    class ResultLoginDTO
+    public class ResultLoginDTO : ResultDTO
     {
+        public string Token { get; set; }
     }
 }

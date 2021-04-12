@@ -1,0 +1,9 @@
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.Domain\bin\Debug\netcoreapp3.1\AR.Domain.deps.json
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.Domain\bin\Debug\netcoreapp3.1\AR.Domain.dll
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.Domain\bin\Debug\netcoreapp3.1\AR.Domain.pdb
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.Domain\obj\Debug\netcoreapp3.1\AR.Domain.csprojAssemblyReference.cache
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.Domain\obj\Debug\netcoreapp3.1\AR.Domain.AssemblyInfoInputs.cache
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.Domain\obj\Debug\netcoreapp3.1\AR.Domain.AssemblyInfo.cs
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.Domain\obj\Debug\netcoreapp3.1\AR.Domain.csproj.CoreCompileInputs.cache
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.Domain\obj\Debug\netcoreapp3.1\AR.Domain.dll
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.Domain\obj\Debug\netcoreapp3.1\AR.Domain.pdb

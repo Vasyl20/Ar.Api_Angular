@@ -4,7 +4,8 @@ using System.Text;
 
 namespace AR.DTO.Results
 {
-    class ResultErrorDTO
+    public class ResultErrorDTO : ResultDTO
     {
+        public List<string> Errors { get; set; }
     }
 }

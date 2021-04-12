@@ -1,0 +1,9 @@
+C:\Users\FOX\source\repos\AR.Api+Angular\Ar.DataAccess\bin\Debug\netcoreapp3.1\Ar.DataAccess.deps.json
+C:\Users\FOX\source\repos\AR.Api+Angular\Ar.DataAccess\bin\Debug\netcoreapp3.1\Ar.DataAccess.dll
+C:\Users\FOX\source\repos\AR.Api+Angular\Ar.DataAccess\bin\Debug\netcoreapp3.1\Ar.DataAccess.pdb
+C:\Users\FOX\source\repos\AR.Api+Angular\Ar.DataAccess\obj\Debug\netcoreapp3.1\Ar.DataAccess.csprojAssemblyReference.cache
+C:\Users\FOX\source\repos\AR.Api+Angular\Ar.DataAccess\obj\Debug\netcoreapp3.1\Ar.DataAccess.AssemblyInfoInputs.cache
+C:\Users\FOX\source\repos\AR.Api+Angular\Ar.DataAccess\obj\Debug\netcoreapp3.1\Ar.DataAccess.AssemblyInfo.cs
+C:\Users\FOX\source\repos\AR.Api+Angular\Ar.DataAccess\obj\Debug\netcoreapp3.1\Ar.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\FOX\source\repos\AR.Api+Angular\Ar.DataAccess\obj\Debug\netcoreapp3.1\Ar.DataAccess.dll
+C:\Users\FOX\source\repos\AR.Api+Angular\Ar.DataAccess\obj\Debug\netcoreapp3.1\Ar.DataAccess.pdb

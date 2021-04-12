@@ -1,0 +1,9 @@
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.DTO\bin\Debug\netcoreapp3.1\AR.DTO.deps.json
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.DTO\bin\Debug\netcoreapp3.1\AR.DTO.dll
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.DTO\bin\Debug\netcoreapp3.1\AR.DTO.pdb
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.DTO\obj\Debug\netcoreapp3.1\AR.DTO.csprojAssemblyReference.cache
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.DTO\obj\Debug\netcoreapp3.1\AR.DTO.AssemblyInfoInputs.cache
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.DTO\obj\Debug\netcoreapp3.1\AR.DTO.AssemblyInfo.cs
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.DTO\obj\Debug\netcoreapp3.1\AR.DTO.csproj.CoreCompileInputs.cache
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.DTO\obj\Debug\netcoreapp3.1\AR.DTO.dll
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.DTO\obj\Debug\netcoreapp3.1\AR.DTO.pdb
