@@ -11,6 +11,6 @@ namespace AR.DTO.Results
         public string Email { get; set; }
 
         [Required(ErrorMessage = "Passwprd is required filds")]
-        public string Passwprd { get; set; }
+        public string Password { get; set; }
     }
 }

@@ -5,13 +5,13 @@ using System.Text;
 
 namespace AR.DTO.Results
 {
-    public class UserRegister
+    public class UserRegisterDTO
     {
         [Required(ErrorMessage = "Email is required filds")]
         public string Email { get; set; }
 
         [Required(ErrorMessage = "Passwprd is required filds")]
-        public string Passwprd { get; set; }
+        public string Password { get; set; }
 
         [Required(ErrorMessage = "Full name is required filds")]
         public string FullName { get; set; }
@@ -23,6 +23,7 @@ namespace AR.DTO.Results
         public string Address { get; set; }
 
         [Required(ErrorMessage = "Age is required filds")]
-        public string Age { get; set; }
+        [Range(15, 100, ErrorMessage = "Age range from 15 to 100")]
+        public int Age { get; set; }
     }
 }

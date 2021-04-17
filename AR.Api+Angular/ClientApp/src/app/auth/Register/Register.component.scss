@@ -1,0 +1,50 @@
+.login-form {
+    width: 35%;
+    height: 700px;
+    margin-left: 32.5%;
+    margin-right: 32.5%;
+    margin-top: 120px;
+    box-shadow: 0 0 20px  #333;
+}
+
+input {
+  width: 70%;
+  height: 40px;
+  margin-left: 15%;
+  margin-right: 15px;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+  box-sizing: border-box;
+ outline: 0;
+ border-radius: 20px;
+ box-shadow: 0 0 20px  #333;
+}
+
+input:focus {outline: 0;}
+
+input :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+button {
+  width: 70%;
+  height: 40px;
+  margin-left: 15%;
+  margin-right: 15px;
+  font-size: 18px;
+  margin-top: 25px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+h1 {
+    padding-top: 30px;
+    text-align: center;
+}

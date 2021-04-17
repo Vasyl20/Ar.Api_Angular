@@ -7,3 +7,6 @@ C:\Users\FOX\source\repos\AR.Api+Angular\AR.Domain\obj\Debug\netcoreapp3.1\AR.Do
 C:\Users\FOX\source\repos\AR.Api+Angular\AR.Domain\obj\Debug\netcoreapp3.1\AR.Domain.csproj.CoreCompileInputs.cache
 C:\Users\FOX\source\repos\AR.Api+Angular\AR.Domain\obj\Debug\netcoreapp3.1\AR.Domain.dll
 C:\Users\FOX\source\repos\AR.Api+Angular\AR.Domain\obj\Debug\netcoreapp3.1\AR.Domain.pdb
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.Domain\bin\Debug\netcoreapp3.1\Ar.DataAccess.dll
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.Domain\bin\Debug\netcoreapp3.1\Ar.DataAccess.pdb
+C:\Users\FOX\source\repos\AR.Api+Angular\AR.Domain\obj\Debug\netcoreapp3.1\AR.Domain.csproj.CopyComplete

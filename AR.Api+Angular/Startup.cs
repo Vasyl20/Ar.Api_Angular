@@ -1,5 +1,9 @@
 using Ar.DataAccess;
 using Ar.DataAccess.Entity;
+using AR.Api_Angular.Helper;
+using AR.Domain.Implementations;
+using AR.Domain.Interfaces;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -9,6 +13,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Tokens;
+using System;
+using System.Text;
 
 namespace AR.Api_Angular
 {
@@ -41,6 +48,33 @@ namespace AR.Api_Angular
                 opt.Password.RequireNonAlphanumeric = true;
             });
 
+            services.AddTransient<IJWTTokenService, JWTTokenService>();
+
+            string jwtTokenSecretKey = Configuration["SecretPhrase"];
+            var signInKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtTokenSecretKey));
+
+
+            services.AddAuthentication(options =>
+            {
+                options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(cfg =>
+            {
+                cfg.RequireHttpsMetadata = false;
+                cfg.SaveToken = true;
+                cfg.TokenValidationParameters = new TokenValidationParameters()
+                {
+                    IssuerSigningKey = signInKey,
+                    ValidateAudience = false,
+                    ValidateIssuer = false,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    // set ClockSkew is zero
+                    ClockSkew = TimeSpan.Zero
+                };
+            });
+
+
             services.AddControllersWithViews();
             services.AddSpaStaticFiles(configuration =>
             {
@@ -68,7 +102,11 @@ namespace AR.Api_Angular
                 app.UseSpaStaticFiles();
             }
 
+            app.UseAuthentication();
+
             app.UseRouting();
+
+            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
@@ -89,6 +127,7 @@ namespace AR.Api_Angular
                     spa.UseAngularCliServer(npmScript: "start");
                 }
             });
+            SeederDatabase.SeedData(app.ApplicationServices, env, Configuration);
         }
     }
 }
